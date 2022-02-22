@@ -1,0 +1,58 @@
+:host {
+  background-color: #f8f4ec;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.top-img {
+  width: 720px;
+  margin-top: 110px;
+  margin-left: 373px;
+  padding: 0;
+}
+
+.btn {
+  background-color: #086167;
+  border-radius: 8px;
+  width: 100px;
+  height: 39px;
+  font: normal normal medium 14px/16px Poppins;
+  color: white;
+  position: absolute;
+  top: 314px;
+  left: 139px;
+}
+
+.reading-top-title {
+  font: normal normal bold 40px/60px Playfair Display;
+  color: #173d5a;
+  max-width: 720px;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0;
+}
+
+select {
+  margin-top: 24px;
+  margin-left: 415px;
+  margin-bottom: 88px;
+  width: 536px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: #ffff;
+  font: normal normal medium 16px/25px Poppins;
+  color: #666666;
+}
+
+select::after {
+  color: #f060a1;
+}

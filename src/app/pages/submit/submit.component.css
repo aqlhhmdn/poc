@@ -1,0 +1,33 @@
+:host {
+  background-color: #f8f4ec;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  background-color: #ffff;
+  margin-top: 98px;
+}
+
+.col {
+  padding: 0;
+}
+.submit-img {
+  max-width: 326px;
+  width: 100%;
+  margin: 128px 0 128px 132px;
+}
+
+.submit-thankyou-text {
+  font: normal normal bold 48px/64px Playfair Display;
+  color: #173d5a;
+  margin-top: 236px;
+  margin-right: 380px;
+}
+
+.sumbit-content-text {
+  font: normal normal normal 20px/26px Poppins;
+  color: #173d5a;
+  margin-top: 16px;
+}

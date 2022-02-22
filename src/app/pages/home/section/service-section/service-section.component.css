@@ -1,0 +1,20 @@
+:host{
+    background-color: #F8F4EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 640px;
+}
+
+h1{
+    font: normal normal bold 40px/60px Playfair Display;
+    color: #173D5A;
+}
+
+h3{
+    font: normal normal normal 18px/28px Poppins;
+    color: #173D5A;
+    text-align:center;
+}

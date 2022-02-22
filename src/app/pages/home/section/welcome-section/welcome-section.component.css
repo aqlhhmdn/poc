@@ -1,0 +1,36 @@
+:host {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 632px;
+}
+
+.row {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  padding: 0;
+}
+
+.welcome-image {
+  max-width: 445px;
+  margin-top: 117px;
+}
+
+.welcome-title {
+  font: normal normal bold 40px/48px Playfair Display;
+  color: #173d5a;
+  margin-top: 88px;
+}
+
+.text {
+  width: 536px;
+  height: 319px;
+  margin-top: 40px;
+  font: normal normal normal 14px/22px Poppins;
+  color: #173d5a;
+}

@@ -1,0 +1,57 @@
+:host {
+  background-color: #f8f4ec;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.featured-cont {
+  margin-top: 48px;
+}
+
+.featured-title {
+  font: normal normal bold 40px/48px Playfair Display;
+  color: #173d5a;
+  text-align: center;
+  margin-top: 93px;
+}
+
+.featured-img {
+  max-width: 352px;
+  width: 100%;
+}
+
+.featured-text-b {
+  font-size: 24px;
+  font-family: "Poppins";
+  color: #173d5a;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.featured-text-r {
+  font: normal normal normal 14px/22px Poppins;
+  color: #173d5a;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 84px;
+  margin-top: 8px;
+}
+
+.btn-featured-- {
+  color: #f060a1;
+  font: normal normal medium 16px/16px Poppins;
+  text-decoration: none;
+  padding: 0;
+}
+
+.featured-btn {
+  margin-top: 24px;
+  margin-left: 0;
+  margin-bottom: 99px;
+}

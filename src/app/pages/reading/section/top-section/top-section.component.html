@@ -1,0 +1,43 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+    <div class="row">
+        <img src="assets/Reading/casual-life-3d-meditation-crystal.png" alt="" class="top-img">
+        <h1 class="reading-top-title">What is your emotional state today?</h1>    
+        <select [(ngModel)]="powerSelected" (change)="onChange()">
+            <option *ngFor="let e of emotion">{{e}}</option>
+          </select>
+    </div>
+</div>
+        <div class="hello">
+                <h1> </h1>
+                </div>
+
+<!-- <div class="container" >
+    
+</div>
+
+<div style="font-size: 25px; color: red;">{{powerSelected}}</div>
+
+<ng-container *ngIf="reallySmartDivIsShown">
+    <div class="container">
+        The car is Really Smart
+    </div>
+</ng-container>
+
+<ng-container *ngIf="superFlexibleIsShown">
+    <div class="container">
+        The car is Super Flexible
+    </div>
+</ng-container>
+
+<ng-container *ngIf="superHotIsShown">
+    <div class="container">
+        The car is Super Hot
+    </div>
+</ng-container>
+
+<ng-container *ngIf="weatherChangerIsShown"> 
+    <div class="container">
+        The car is Weather Changer
+    </div>
+</ng-container> -->

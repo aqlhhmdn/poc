@@ -1,0 +1,52 @@
+:host {
+  background-color: #f8f4ec;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  background-color: #f8f4ec;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  padding: 0;
+}
+
+.hero-title {
+  max-width: 515px;
+  margin-left: 139px;
+  margin-top: 109px;
+}
+
+.hero-image {
+  max-width: 536px;
+  margin-top: 106px;
+  margin-bottom: 88px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #173d5a;
+  margin: 0;
+}
+
+.btn {
+  background-color: #086167;
+  border-radius: 8px;
+  width: 100px;
+  height: 39px;
+  font-size: 14px;
+  font-family: "Poppins";
+  color: white;
+  margin-top: 26px;
+}
