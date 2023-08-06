@@ -1,70 +1,78 @@
-:host{
-    background-color: #ffff;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+:host {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.container{
-    max-width: 1366px;
-    padding: 0;
+.container {
+  max-width: 1366px;
+  padding: 0;
 }
 
-.col{
-    margin: 0;
+.col {
+  padding: 0;
+  margin: 0;
+}
+.row {
+  max-width: 1366px;
+  margin: 0;
 }
 
-.newsletter-email{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.newsletter-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.newsletter-image{
-    max-width: 583px;
-    width: 100%; 
+.newsletter-image {
+  max-width: 583px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-.newsletter-title{
-    margin-top: 71px;
-    margin-left: 139px;
+.newsletter-title {
+  margin-top: 71px;
+  margin-left: 139px;
 }
 
-.newsletter-email-field{
-    margin-top: 32px;
+.newsletter-email-field {
+  margin-top: 32px;
 }
 
-.newsletter-input{
-    border-radius: 8px;
-    border: 1px solid #CCCCCC;
-    width: 444px;
-    height: 48px;
+.newsletter-input {
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  width: 444px;
+  height: 48px;
 }
 
-h1{
-    font: normal normal bold 40px/48px Playfair Display;
-    color: #173D5A;
+h1 {
+  font: normal normal bold 40px/48px Playfair Display;
+  color: #173d5a;
 }
 
-h3{
-    font: normal normal normal 18px/28px Poppins;
-    color: #173D5A;
+h3 {
+  font: normal normal normal 18px/28px Poppins;
+  color: #173d5a;
 }
 
-.btn{
-    background-color: #086167;
-    border-radius: 8px;
-    width: 123px;
-    height: 48px;
-    margin-left: 16px;
-    color: white;
-    font-size: 14px;
-    font-family: 'Poppins';
-    font-weight: 400;
+.btn {
+  background-color: #086167;
+  border-radius: 8px;
+  width: 123px;
+  height: 48px;
+  margin-left: 16px;
+  color: white;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 
 ::placeholder {
-    font: normal normal medium 14px/16px Poppins;
-    color: #999999;
-    text-indent: 24px;
-  }
+  font: normal normal medium 14px/16px Poppins;
+  color: #999999;
+  text-indent: 24px;
+}

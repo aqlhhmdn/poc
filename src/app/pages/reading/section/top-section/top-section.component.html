@@ -1,43 +1,135 @@
 <app-nav-bar></app-nav-bar>
-<div class="container">
+<div class="container c-top--">
     <div class="row">
         <img src="assets/Reading/casual-life-3d-meditation-crystal.png" alt="" class="top-img">
         <h1 class="reading-top-title">What is your emotional state today?</h1>    
         <select [(ngModel)]="powerSelected" (change)="onChange()">
-            <option *ngFor="let e of emotion">{{e}}</option>
+            <option ngbDropdownItem *ngFor="let e of emotion">{{e}}</option>
           </select>
     </div>
 </div>
-        <div class="hello">
-                <h1> </h1>
-                </div>
 
-<!-- <div class="container" >
-    
-</div>
-
-<div style="font-size: 25px; color: red;">{{powerSelected}}</div>
-
-<ng-container *ngIf="reallySmartDivIsShown">
-    <div class="container">
-        The car is Really Smart
+<ng-container *ngIf="happinessIsShown">
+    <div class="container c-bottom--">
+        <h3 class="overview">Overview</h3>
+        <h1 class="emotional-title">Happiness</h1>
+        <div class="container c-quote--">
+            <div class="row">
+                <img src="assets/Reading/casual-life-3d-idea-lamp.png" alt="" class="t-text-img">
+                <div class="col t-text-col">
+                    <h3 class="t-text-title">{{list[13].title}}</h3>
+                    <h1 class="t-text">{{list[13].body}}</h1>
+                    <button class="btn btn-link btn-featured--" onclick="window.open('https://www.huffpost.com/entry/10-reasons-why-love-is-th_b_6811170')">Read Full Article <fa-icon [icon]="arrowRight"></fa-icon></button>
+                </div>      
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <img src="assets/Reading/casual-life-3d-pink-sneakers-in-air.png" alt="" class="t-text-img">
+                <div class="col t-text-col">
+                    <h3 class="t-text-title">{{list[11].title}}</h3>
+                    <h1 class="t-text">{{list[11].body}}</h1>
+                </div>      
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[12].body}}</h1>       
+                <h3 class="author-quote">-{{list[12].author}}</h3>
+            </div>
+        </div>
     </div>
 </ng-container>
 
-<ng-container *ngIf="superFlexibleIsShown">
-    <div class="container">
-        The car is Super Flexible
+<ng-container *ngIf="sadnessIsShown">
+    <div class="container c-bottom--">
+        <h3 class="overview">Overview</h3>
+        <h1 class="emotional-title">Sadness</h1>
+        <div class="container c-quote--">
+            <div class="row">
+                <img src="assets/Reading/casual-life-3d-idea-lamp.png" alt="" class="t-text-img">
+                <div class="col t-text-col">
+                    <h3 class="t-text-title">{{list[16].title}}</h3>
+                    <h1 class="t-text">{{list[16].body}}</h1>
+                    <button class="btn btn-link btn-featured--" onclick="window.open('https://www.betterhealth.vic.gov.au/health/healthyliving/its-okay-to-feel-sad')">Read Full Article <fa-icon [icon]="arrowRight"></fa-icon></button>
+                </div>      
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[0].body}}</h1>       
+                <h3 class="author-quote">-{{list[0].author}}</h3>
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[1].body}}</h1>       
+                <h3 class="author-quote">-{{list[1].author}}</h3>
+            </div>
+        </div>
     </div>
 </ng-container>
 
-<ng-container *ngIf="superHotIsShown">
-    <div class="container">
-        The car is Super Hot
+<ng-container *ngIf="fearIsShown">
+    <div class="container c-bottom--">
+        <h3 class="overview">Overview</h3>
+        <h1 class="emotional-title">Fear</h1>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[3].body}}</h1>       
+                <h3 class="author-quote">-{{list[3].author}}</h3>
+            </div>
+        </div>
     </div>
 </ng-container>
 
-<ng-container *ngIf="weatherChangerIsShown"> 
-    <div class="container">
-        The car is Weather Changer
+<ng-container *ngIf="disgustIsShown">
+    <div class="container c-bottom--">
+        <h3 class="overview">Overview</h3>
+        <h1 class="emotional-title">Disgust</h1>
+        <div class="container c-quote--">
+            <div class="row">
+                <img src="assets/Reading/casual-life-3d-pink-sneakers-in-air.png" alt="" class="t-text-img">
+                <div class="col t-text-col">
+                    <h3 class="t-text-title">{{list[5].title}}</h3>
+                    <h1 class="t-text">{{list[5].body}}</h1>
+                </div>      
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[6].body}}</h1>       
+                <h3 class="author-quote">-{{list[6].author}}</h3>
+            </div>
+        </div>
     </div>
-</ng-container> -->
+</ng-container>
+
+<ng-container *ngIf="angerIsShown">
+    <div class="container c-bottom--">
+        <h3 class="overview">Overview</h3>
+        <h1 class="emotional-title">Anger</h1>
+        <div class="container c-quote--">
+            <div class="row">
+                <img src="assets/Reading/casual-life-3d-idea-lamp.png" alt="" class="t-text-img">
+                <div class="col t-text-col">
+                    <h3 class="t-text-title">{{list[14].title}}</h3>
+                    <h1 class="t-text">{{list[14].body}}</h1>
+                    <button class="btn btn-link btn-featured--" onclick="window.open('https://www.headspace.com/articles/how-to-calm-down')">Read Full Article <fa-icon [icon]="arrowRight"></fa-icon></button>
+                </div>      
+            </div>
+        </div>
+        <div class="container c-quote--">
+            <div class="row">
+                <h1 class="symbol-quote">“</h1>
+                <h1 class="t-quote">{{list[15].body}}</h1>       
+                <h3 class="author-quote">-{{list[15].author}}</h3>
+            </div>
+        </div>
+    </div>
+</ng-container>

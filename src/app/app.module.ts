@@ -17,8 +17,9 @@ import { FeaturedSectionComponent } from './pages/home/section/featured-section/
 import { TopSectionComponent } from './pages/reading/section/top-section/top-section.component';
 import { SubmitComponent } from './pages/submit/submit.component';
 import { CustomDropdownComponent } from './component/custom-dropdown/custom-dropdown.component';
-import { BottomSectionComponent } from './pages/reading/section/bottom-section/bottom-section.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HttpService } from './http.service';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TopSectionComponent,
     SubmitComponent,
     CustomDropdownComponent,
-    BottomSectionComponent,
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FontAwesomeModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

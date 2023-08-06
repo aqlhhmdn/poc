@@ -6,6 +6,10 @@
 }
 
 .container {
+  padding: 0;
+}
+
+.c-top-- {
   max-width: 1366px;
   margin: 0 auto;
 }
@@ -15,18 +19,6 @@
   margin-top: 110px;
   margin-left: 373px;
   padding: 0;
-}
-
-.btn {
-  background-color: #086167;
-  border-radius: 8px;
-  width: 100px;
-  height: 39px;
-  font: normal normal medium 14px/16px Poppins;
-  color: white;
-  position: absolute;
-  top: 314px;
-  left: 139px;
 }
 
 .reading-top-title {
@@ -53,6 +45,97 @@ select {
   color: #666666;
 }
 
-select::after {
+/* bottom-section */
+
+.overview {
+  text-transform: uppercase;
+  font: normal normal normal 18px/27px Poppins;
+  color: #173d5a;
+  margin-top: 62px;
+  margin-left: 138px;
+}
+
+.emotional-title {
+  font: normal normal bold 48px/64px Playfair Display;
+  color: #173d5a;
+  margin-left: 138px;
+  margin-bottom: 60px;
+}
+
+.c-bottom-- {
+  background-color: #ffff;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.c-quote-- {
+  background-color: #f7f5ee;
+  border: 8px;
+  max-width: 1088px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.t-quote {
+  max-width: 964px;
+  font: normal normal bold 24px/30px Playfair Display;
+  color: #173d5a;
+  margin: auto;
+  padding: 0;
+}
+
+.t-text {
+  max-width: 872px;
+  font: normal normal normal 14px/21px Poppins;
+  color: #173d5a;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 0;
+}
+
+.t-text-title {
+  font: normal normal bold 24px/30px Playfair Display;
+  color: #173d5a;
+  max-width: fit-content;
+  margin-top: 24px;
+  /* margin-left: 42px; */
+}
+
+.t-text-img {
+  max-width: 110px;
+  height: 90px;
+  width: 100%;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.t-text-col {
+  padding: 0;
+  margin-left: 42px;
+}
+
+.symbol-quote {
+  font: normal normal bold 100px/133px Playfair Display;
+  color: #ee72aa;
+  max-width: 46px;
+  padding: 0;
+  margin-left: 32px;
+}
+
+.author-quote {
+  font: normal normal normal 14px/21px Poppins;
+  color: #173d5a;
+  text-transform: uppercase;
+  margin-left: 94px;
+}
+
+.btn-featured-- {
+  margin-bottom: 30px;
   color: #f060a1;
+  font: normal normal medium 16px/16px Poppins;
+  text-decoration: none;
+  padding: 0;
 }

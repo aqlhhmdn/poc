@@ -6,7 +6,14 @@
 }
 
 .container {
+  max-width: 1366px;
   margin: 0 auto;
+}
+
+.row {
+  max-width: 1116px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .featured-cont {
@@ -48,6 +55,7 @@
   font: normal normal medium 16px/16px Poppins;
   text-decoration: none;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .featured-btn {
@@ -55,3 +63,5 @@
   margin-left: 0;
   margin-bottom: 99px;
 }
+
+/* icon */

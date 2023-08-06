@@ -1,20 +1,43 @@
-:host{
-    background-color: #F8F4EC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
-    height: 640px;
+:host {
+  background-color: #f8f4ec;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-h1{
-    font: normal normal bold 40px/60px Playfair Display;
-    color: #173D5A;
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+.row {
+  max-width: 1116px;
+  margin-top: 59px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
 }
 
-h3{
-    font: normal normal normal 18px/28px Poppins;
-    color: #173D5A;
-    text-align:center;
+.col-lg-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-img {
+  border-radius: 20px;
+  max-width: 200px;
+  width: 100%;
+}
+
+h1 {
+  font: normal normal bold 40px/60px Playfair Display;
+  color: #173d5a;
+  text-align: center;
+}
+
+h3 {
+  font: normal normal normal 18px/28px Poppins;
+  color: #173d5a;
+  text-align: center;
+  margin-top: 86px;
 }
